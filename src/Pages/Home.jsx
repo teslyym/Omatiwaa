@@ -20,6 +20,7 @@ const Home = () => {
         </p>
         <p>Feel free to explore other pages or visit our about page.</p>
         <a href="/about">About</a>
+        <a href="/resume">Resume</a>
       </div>
     </div>
   );
