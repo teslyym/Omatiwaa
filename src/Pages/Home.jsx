@@ -10,7 +10,14 @@ const Home = () => {
           Crafting user-centric digital products that delight and inspire - I
           bring expertise and creativity to every design.
         </h1>
-        <p>This is the home page of our my new application.</p>
+        <p>
+          Hi, I am Mojeedat, a UX designer with 3+ years of experience creating
+          user-centric designs that balance business goals and user needs.
+          Skilled in Lean UX and Agile methods, I specialize in designing
+          intuitive, engaging experiences for both B2B and B2C products. My
+          approach combines strategic insights and creativity to deliver
+          optimized, user-focused designs.
+        </p>
         <p>Feel free to explore other pages or visit our about page.</p>
         <a href="/about">About</a>
       </div>
