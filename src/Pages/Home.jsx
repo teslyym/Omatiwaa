@@ -7,17 +7,19 @@ const Home = () => {
     <div>
       <Header />
       <div className="rounded-lg flex flex-col border mt-[8%] w-[80%] mx-auto mb-10 items-center gap-6">
-        <div>
-          <h1>
-            Crafting
-            <span className=" text-[#4898A7]">
+        <div className="w-full leading-[92px] text-justify">
+          <h1 className="font-semibold text-6xl">
+            Crafting{" "}
+            <span className="text-[#4898A7]">
               user-centric digital products
-            </span>
-            that
-            <span> delight </span> and <span>inspire </span> - I bring expertise
-            and creativity to every <span>design</span>.
+            </span>{" "}
+            that <span className="text-[#4898A7]">delight</span> and{" "}
+            <span className="text-[#4898A7]">inspire</span> – I bring expertise
+            and creativity to every{" "}
+            <span className="text-[#4898A7]"> design</span>.
           </h1>
         </div>
+
         <div>
           <p>
             Hi, I am Mojeedat, a UX designer with 3+ years of experience
@@ -31,7 +33,7 @@ const Home = () => {
         <div className="flex gap-3 rounded w-[449px] pb-3">
           <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
             <Link className="" to={"/about"}>
-              FInd out more
+              Find out more
             </Link>
           </div>
           <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
