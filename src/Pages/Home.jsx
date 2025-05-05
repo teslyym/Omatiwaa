@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="rounded-lg flex flex-col border mt-[8%] w-[80%] mx-auto mb-10 items-center gap-6">
+      <div className="rounded-lg flex flex-col mt-[8%] w-[80%] mx-auto mb-10 items-center gap-4">
         <div className="w-full leading-[92px] text-justify">
           <h1 className="font-semibold text-6xl">
             Crafting{" "}
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
 
         <div>
-          <p>
+          <p className=" font-normal text-2xl leading-[46px]">
             Hi, I am Mojeedat, a UX designer with 3+ years of experience
             creating user-centric designs that balance business goals and user
             needs. Skilled in Lean UX and Agile methods, I specialize in
