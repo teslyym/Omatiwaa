@@ -21,7 +21,7 @@ const Home = () => {
         </div>
 
         <div>
-          <p className=" font-normal text-2xl leading-[46px]">
+          <p className=" font-normal text-2xl leading-[46px] text-justify">
             Hi, I am Mojeedat, a UX designer with 3+ years of experience
             creating user-centric designs that balance business goals and user
             needs. Skilled in Lean UX and Agile methods, I specialize in
