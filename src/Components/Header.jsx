@@ -5,6 +5,12 @@ const Header = () => {
   return (
     <div>
       <div className="rounded-lg sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4  border-[#467C86] border-[1px] mx-auto mb-10  gap-6 fixed z-40 w-[80%] bg-white top-0 flex items-center text-[#001712] px-[7vw] py-2 justify-between">
+        <button class="hamburger" onclick="toggleMenu()">
+          ☰
+        </button>
+        {/* <div class="mobile-nav" id="navMenu">
+</div> */}
+
         <div>
           <img src={Logo} />
         </div>
