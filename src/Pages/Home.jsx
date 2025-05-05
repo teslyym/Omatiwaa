@@ -14,7 +14,7 @@ const Home = () => {
               user-centric digital products
             </span>
             that
-            <span>delight</span> and <span>inspire </span> - I bring expertise
+            <span> delight </span> and <span>inspire </span> - I bring expertise
             and creativity to every <span>design</span>.
           </h1>
         </div>
@@ -28,9 +28,15 @@ const Home = () => {
             deliver optimized, user-focused designs.
           </p>
         </div>
-        <div className="flex gap-1">
-          <Link to={"/about"}>About</Link>
-          <Link to={"/resume"}>Resume</Link>
+        <div className="flex gap-3 rounded w-[449px] pb-3">
+          <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
+            <Link className="" to={"/about"}>
+              FInd out more
+            </Link>
+          </div>
+          <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
+            <Link to={"/resume"}>Send a message</Link>
+          </div>
         </div>
       </div>
     </div>
