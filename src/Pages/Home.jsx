@@ -41,6 +41,12 @@ const Home = () => {
           </div>
         </div>
         <div className="bg-[blue]"></div>
+        <div>
+          <p>Projects</p>
+          <div>
+            <div></div>
+          </div>
+        </div>
       </div>
     </div>
   );
