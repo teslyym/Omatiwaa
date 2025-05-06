@@ -40,6 +40,7 @@ const Home = () => {
             <Link to={"/resume"}>Send a message</Link>
           </div>
         </div>
+        <div className="bg-[blue]"></div>
       </div>
     </div>
   );
