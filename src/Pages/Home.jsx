@@ -43,7 +43,8 @@ const Home = () => {
         <div className="bg-[blue]"></div>
         <div>
           <p>Projects</p>
-          <div>
+          <div className="flex">
+            <div></div>
             <div></div>
           </div>
         </div>
