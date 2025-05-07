@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import { Link } from "react-router-dom";
+import Fivani from "../assets/Frame 1171278752.png";
 
 const Home = () => {
   return (
@@ -44,7 +45,9 @@ const Home = () => {
         <div>
           <p>Projects</p>
           <div className="flex">
-            <div></div>
+            <div>
+              <img src={Fivani} alt="" />
+            </div>
             <div></div>
           </div>
         </div>
