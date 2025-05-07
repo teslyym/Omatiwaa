@@ -48,7 +48,10 @@ const Home = () => {
             <div>
               <img src={Fivani} alt="" />
             </div>
-            <div></div>
+            <div className="bg-[#05090A]">
+              <h1>Saas Platform</h1>
+              <p className="text-white">Fivani</p>
+            </div>
           </div>
         </div>
       </div>
