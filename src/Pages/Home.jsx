@@ -51,6 +51,7 @@ const Home = () => {
             <div className="bg-[#05090A]">
               <h1>Saas Platform</h1>
               <p className="text-white">Fivani</p>
+              <h2></h2>
             </div>
           </div>
         </div>
