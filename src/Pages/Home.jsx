@@ -52,6 +52,10 @@ const Home = () => {
               <h1>Saas Platform</h1>
               <p className="text-white">Fivani</p>
               <h2>Web, Dashboard, and Mobile Design</h2>
+              <h3>
+                Empowering freelancers to manage contracts, projects, and
+                payments seamlessly, all in one secure platform
+              </h3>
             </div>
           </div>
         </div>
