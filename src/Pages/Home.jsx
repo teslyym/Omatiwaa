@@ -63,7 +63,7 @@ const Home = () => {
                   </Link>
                 </div>
                 <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
-                  <Link to={"/resume"}>Send a message</Link>
+                  <Link to={"/resume"}>Check website Link</Link>
                 </div>
               </div>
             </div>
