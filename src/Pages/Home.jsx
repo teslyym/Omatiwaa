@@ -48,14 +48,24 @@ const Home = () => {
             <div>
               <img src={Fivani} alt="" />
             </div>
-            <div className="bg-[#05090A]">
-              <h1>Saas Platform</h1>
+            <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
+              <h1 className="text-[#53BDD1]">Saas Platform</h1>
               <p className="text-white">Fivani</p>
-              <h2>Web, Dashboard, and Mobile Design</h2>
-              <h3>
+              <h2 className="text-white">Web, Dashboard, and Mobile Design</h2>
+              <h3 className="text-white">
                 Empowering freelancers to manage contracts, projects, and
                 payments seamlessly, all in one secure platform
               </h3>
+              <div className="flex gap-3 rounded w-[449px] pb-3">
+                <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
+                  <Link className="" to={"/about"}>
+                    View Case-Study
+                  </Link>
+                </div>
+                <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
+                  <Link to={"/resume"}>Send a message</Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
