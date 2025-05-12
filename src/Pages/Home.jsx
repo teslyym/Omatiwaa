@@ -56,16 +56,7 @@ const Home = () => {
                 Empowering freelancers to manage contracts, projects, and
                 payments seamlessly, all in one secure platform
               </h3>
-              <div className="flex gap-3 rounded w-[449px] pb-3">
-                <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
-                  <Link className="" to={"/about"}>
-                    View Case-Study
-                  </Link>
-                </div>
-                <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
-                  <Link to={"/resume"}>Check website Link</Link>
-                </div>
-              </div>
+              c
             </div>
             <div>
               <div>
@@ -81,6 +72,16 @@ const Home = () => {
                   Empowering freelancers to manage contracts, projects, and
                   payments seamlessly, all in one secure platform
                 </h3>
+                <div className="flex gap-3 rounded w-[449px] pb-3">
+                  <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
+                    <Link className="" to={"/about"}>
+                      View Case-Study
+                    </Link>
+                  </div>
+                  <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
+                    <Link to={"/resume"}>Check website Link</Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
