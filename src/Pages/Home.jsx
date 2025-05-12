@@ -67,6 +67,22 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div>
+              <div>
+                <img src={Fivani} alt="" />
+              </div>
+              <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
+                <h1 className="text-[#53BDD1]">Saas Platform</h1>
+                <p className="text-white">Fivani</p>
+                <h2 className="text-white">
+                  Web, Dashboard, and Mobile Design
+                </h2>
+                <h3 className="text-white">
+                  Empowering freelancers to manage contracts, projects, and
+                  payments seamlessly, all in one secure platform
+                </h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
