@@ -63,7 +63,7 @@ const Home = () => {
                 <img src={Fivani} alt="" />
               </div>
               <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
-                <h1 className="text-[#53BDD1]">Saas Platform</h1>
+                <h1 className="text-[#53BDD1]">Hospitality</h1>
                 <p className="text-white">Fivani</p>
                 <h2 className="text-white">
                   Web, Dashboard, and Mobile Design
