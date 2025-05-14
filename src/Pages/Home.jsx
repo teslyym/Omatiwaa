@@ -70,7 +70,7 @@ const Home = () => {
                 </h2>
                 <h3 className="text-white">
                   Empowering freelancers to manage contracts, projects, and
-                  payments seamlessly, all in one secure platform
+                  payments seamlessly,
                 </h3>
                 <div className="flex gap-3 rounded w-[449px] pb-3">
                   <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
