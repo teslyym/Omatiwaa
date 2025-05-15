@@ -31,8 +31,8 @@ const Home = () => {
             deliver optimized, user-focused designs.
           </p>
         </div>
-        <div className="flex gap-3 rounded w-[449px] pb-3">
-          <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
+        <div className="flex gap-3 justify-center rounded w-[449px] pb-3">
+          <div className=" bg-[#0E191B] items-center text-white rounded border w-[150px]">
             <Link className="" to={"/about"}>
               Find out more
             </Link>
@@ -44,41 +44,53 @@ const Home = () => {
         <div className="bg-[blue]"></div>
         <div>
           <p>Projects</p>
-          <div className="flex">
-            <div>
-              <img src={Fivani} alt="" />
-            </div>
-            <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
-              <h1 className="text-[#53BDD1]">Saas Platform</h1>
-              <p className="text-white">Fivani</p>
-              <h2 className="text-white">Web, Dashboard, and Mobile Design</h2>
-              <h3 className="text-white">
-                Empowering freelancers to manage contracts, projects, and
-                payments seamlessly, all in one secure platform
-              </h3>
-              c
-            </div>
-            <div>
+
+          <div className="">
+            <div className="flex py-[5%]">
               <div>
                 <img src={Fivani} alt="" />
               </div>
-              <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
-                <h1 className="text-[#53BDD1]">Hospitality</h1>
+              <div className="bg-[#05090A]  gap-6 justify-center px-4 py-4">
+                <h1 className="text-[#53BDD1]">Saas Platform</h1>
                 <p className="text-white">Fivani</p>
                 <h2 className="text-white">
                   Web, Dashboard, and Mobile Design
                 </h2>
                 <h3 className="text-white">
                   Empowering freelancers to manage contracts, projects, and
-                  payments seamlessly,
+                  payments seamlessly, all in one secure platform
                 </h3>
                 <div className="flex gap-3 rounded w-[449px] pb-3">
-                  <div className=" bg-[#0E191B] items-center align-middle text-white rounded border w-[150px]">
+                  <div className=" bg-[#0E191B] text-white text-center rounded-[40px] border w-[240px]">
                     <Link className="" to={"/about"}>
                       View Case-Study
                     </Link>
                   </div>
-                  <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
+                  <div className=" bg-[white] text-center rounded-[40px] border w-[240px]  text-black">
+                    <Link to={"/resume"}>Check website Link</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" flex">
+              <div>
+                <img src={Fivani} alt="" />
+              </div>
+              <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
+                <h1 className="text-[#53BDD1]">Hospitality</h1>
+                <p className="text-white">BuddyApp</p>
+                <h2 className="text-white">Mobile App</h2>
+                <h3 className="text-white">
+                  Connecting solo travelers for safer, more enjoyable journeys
+                  filled with shared experiences
+                </h3>
+                <div className="flex gap-3 rounded w-[449px] pb-3">
+                  <div className=" bg-[#0E191B] text-white text-center rounded-[40px] border w-[240px]">
+                    <Link className="" to={"/about"}>
+                      View Case-Study
+                    </Link>
+                  </div>
+                  <div className=" bg-[white] text-center rounded-[40px] border w-[240px]  text-black">
                     <Link to={"/resume"}>Check website Link</Link>
                   </div>
                 </div>
