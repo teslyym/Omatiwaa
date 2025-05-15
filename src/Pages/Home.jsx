@@ -5,7 +5,7 @@ import Fivani from "../assets/Frame 1171278752.png";
 
 const Home = () => {
   return (
-    <div>
+    <div className=" mt-3">
       <Header />
       <div className="rounded-lg flex flex-col mt-[8%] w-[80%] mx-auto mb-10 items-center gap-4">
         <div className="w-full leading-[92px] text-justify">
