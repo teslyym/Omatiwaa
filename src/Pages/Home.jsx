@@ -32,12 +32,12 @@ const Home = () => {
           </p>
         </div>
         <div className="flex gap-3 justify-center rounded w-[449px] pb-3">
-          <div className=" bg-[#0E191B] items-center text-white rounded border w-[150px]">
+          <div className=" bg-[#0E191B] text-white text-center rounded-[40px] border w-[240px]">
             <Link className="" to={"/about"}>
               Find out more
             </Link>
           </div>
-          <div className=" bg-[white] items-center align-middle text-black rounded border w-[150px]">
+          <div className=" bg-[white] text-center rounded-[40px] border w-[240px]  text-black">
             <Link to={"/resume"}>Send a message</Link>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className=" flex">
+            <div className=" flex py-[5%]">
               <div>
                 <img src={Fivani} alt="" />
               </div>
@@ -83,6 +83,54 @@ const Home = () => {
                 <h3 className="text-white">
                   Connecting solo travelers for safer, more enjoyable journeys
                   filled with shared experiences
+                </h3>
+                <div className="flex gap-3 rounded w-[449px] pb-3">
+                  <div className=" bg-[#0E191B] text-white text-center rounded-[40px] border w-[240px]">
+                    <Link className="" to={"/about"}>
+                      View Case-Study
+                    </Link>
+                  </div>
+                  <div className=" bg-[white] text-center rounded-[40px] border w-[240px]  text-black">
+                    <Link to={"/resume"}>Check website Link</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" flex py-[5%]">
+              <div>
+                <img src={Fivani} alt="" />
+              </div>
+              <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
+                <h1 className="text-[#53BDD1]">Portfolio Website</h1>
+                <p className="text-white">Zorfts Technologies</p>
+                <h2 className="text-white">Web and Mobile Design</h2>
+                <h3 className="text-white">
+                  Bringing fresh produce and essentials directly to your
+                  doorstep with convenience and reliability
+                </h3>
+                <div className="flex gap-3 rounded w-[449px] pb-3">
+                  <div className=" bg-[#0E191B] text-white text-center rounded-[40px] border w-[240px]">
+                    <Link className="" to={"/about"}>
+                      View Case-Study
+                    </Link>
+                  </div>
+                  <div className=" bg-[white] text-center rounded-[40px] border w-[240px]  text-black">
+                    <Link to={"/resume"}>Check website Link</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" flex py-[5%]">
+              <div>
+                <img src={Fivani} alt="" />
+              </div>
+              <div className="bg-[#05090A] flex-grid gap-6 justify-center px-4 py-4">
+                <h1 className="text-[#53BDD1]">Lifestyle and Home</h1>
+                <p className="text-white">HomeVolt</p>
+                <h2 className="text-white">Web, Dashboard and Mobile Design</h2>
+                <h3 className="text-white">
+                  Simplifying Property Rentals, Sales, and Renewable Energy
+                  Solutions
                 </h3>
                 <div className="flex gap-3 rounded w-[449px] pb-3">
                   <div className=" bg-[#0E191B] text-white text-center rounded-[40px] border w-[240px]">
