@@ -44,7 +44,6 @@ const Home = () => {
         <div className="bg-[blue]"></div>
         <div>
           <p>Projects</p>
-
           <div className="">
             <div className="flex py-[5%]">
               <div>
@@ -144,7 +143,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>{" "}
+          Closing div of the container
         </div>
       </div>
     </div>
